@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le jeu du Vendredi</title>
+<link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo-container">
+        <img src="/Medias/logo.avif" alt="Stratow logo"/>
+      </div>
+      <nav>
+        <a href="../Pages/index.html">Accueil</a>
+        <a href="../Pages/create.html">Créer</a>
+        <a href="../Pages/prequiz.html">Jouer</a>
+        <a href="../Pages/community/community.html">Communauté</a>
+        <a href="../Pages/community/login.html">Compte</a>
+      </nav>
+    </header>
+
+    <section class="panel score-hero">
+      <span class="muted" id="quiz-title-label">Résultats</span>
+      <span class="score-value" id="score-value">0/0</span>
+      <span class="score-label" id="score-sublabel"></span>
+    </section>
+
+    <section class="stats-grid" id="stats-grid"></section>
+
+    <section class="panel">
+      <h2 style="font-size:18px; text-transform:none; margin-bottom:16px;">Détail des réponses</h2>
+      <div class="results-list" id="results-list"></div>
+    </section>
+
+    <section class="results-actions">
+      <a class="buzzer" href="../Pages/prequiz.html">Rejouer</a>
+      <a class="buzzer buzzer--ghost" href="../Pages/index.html">Retour à l'accueil</a>
+    </section>
+
+  </div>
+
+  <script src="../Javascript/storage.js"></script>
+  <script src="../Javascript/results.js"></script>
+</body>
+</html>

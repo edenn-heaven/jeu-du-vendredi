@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le jeu du Vendredi</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo-container">
+        <img src="/Medias/logo.avif" alt="Stratow logo"/>
+      </div>
+      <nav>
+        <a href="../index.html">Accueil</a>
+        <a href="../create.html">Créer</a>
+        <a href="../prequiz.html">Jouer</a>
+        <a href="../community/community.html">Communauté</a>
+        <a href="../community/login.html">Compte</a>
+      </nav>
+    </header>
+
+    <main class="community-page">
+      <div class="community-content">
+        <aside class="leaderboard" id="leaderboardSection">
+          <h2>Classement</h2>
+          <ul class="leaderboard-list" id="leaderboardList"></ul>
+        </aside>
+
+        <section class="quiz-grid" id="quizGridSection">
+          <h2>Quiz disponibles</h2>
+          <section class="community-filters">
+            <h3 style="margin:0 0 10px 0; font-size:14px; text-transform:uppercase; color:var(--muted,#777);">Filtres</h3>
+            <div class="tag-list" id="tagList" aria-label="Liste des tags"></div>
+          </section>
+          <div class="quiz-cards" id="quizCards"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="/Javascript/storage.js"></script>
+  <script src="/Javascript/community/community.js"></script>
+</body>
+</html>

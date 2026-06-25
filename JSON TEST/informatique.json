@@ -1,0 +1,95 @@
+{
+    "title": "Informatique et numérique",
+    "tags": ["informatique", "technologie", "internet"],
+    "questions": [{
+            "question": "Quel langage est principalement utilisé pour le web côté client ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "JavaScript", "is_correct": true },
+                { "text": "Python", "is_correct": false },
+                { "text": "C", "is_correct": false },
+                { "text": "Java", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Linux est un système d’exploitation open source.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel protocole est utilisé pour les sites web sécurisés ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "HTTPS", "is_correct": true },
+                { "text": "FTP", "is_correct": false },
+                { "text": "SMTP", "is_correct": false },
+                { "text": "SSH uniquement", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Un algorithme est une suite d’instructions.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Qui a créé le World Wide Web ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Tim Berners-Lee", "is_correct": true },
+                { "text": "Bill Gates", "is_correct": false },
+                { "text": "Steve Jobs", "is_correct": false },
+                { "text": "Mark Zuckerberg", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Python est un langage compilé uniquement.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Faux", "is_correct": true },
+                { "text": "Vrai", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le rôle d’un CPU ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Exécuter les instructions", "is_correct": true },
+                { "text": "Stocker les photos", "is_correct": false },
+                { "text": "Afficher l’écran", "is_correct": false },
+                { "text": "Connecter Internet", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Git sert à gérer les versions de code.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel réseau social appartient à Meta ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Instagram", "is_correct": true },
+                { "text": "TikTok", "is_correct": false },
+                { "text": "Snapchat", "is_correct": false },
+                { "text": "X (Twitter)", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Un fichier .html est interprété par un navigateur web.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        }
+    ]
+}

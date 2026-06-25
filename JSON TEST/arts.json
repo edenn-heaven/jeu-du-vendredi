@@ -1,0 +1,95 @@
+{
+    "title": "Arts visuels et peinture",
+    "tags": ["art", "peinture", "culture"],
+    "questions": [{
+            "question": "Qui a peint la Joconde ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Léonard de Vinci", "is_correct": true },
+                { "text": "Michel-Ange", "is_correct": false },
+                { "text": "Raphaël", "is_correct": false },
+                { "text": "Van Gogh", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Van Gogh s’est coupé l’oreille entière.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Faux", "is_correct": true },
+                { "text": "Vrai", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel mouvement artistique est associé à Picasso ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Le cubisme", "is_correct": true },
+                { "text": "Le romantisme", "is_correct": false },
+                { "text": "Le réalisme", "is_correct": false },
+                { "text": "Le baroque", "is_correct": false }
+            ]
+        },
+        {
+            "question": "La peinture 'La Nuit étoilée' est de Van Gogh.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel artiste a sculpté 'Le Penseur' ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Auguste Rodin", "is_correct": true },
+                { "text": "Michel-Ange", "is_correct": false },
+                { "text": "Donatello", "is_correct": false },
+                { "text": "Bernini", "is_correct": false }
+            ]
+        },
+        {
+            "question": "L’impressionnisme se concentre sur la lumière et les impressions visuelles.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel musée abrite la Joconde ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Le Louvre", "is_correct": true },
+                { "text": "Le British Museum", "is_correct": false },
+                { "text": "Le Prado", "is_correct": false },
+                { "text": "Le MoMA", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Michel-Ange a peint la chapelle Sixtine.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel artiste est associé au surréalisme ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Salvador Dalí", "is_correct": true },
+                { "text": "Monet", "is_correct": false },
+                { "text": "Courbet", "is_correct": false },
+                { "text": "Ingres", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Le Louvre est le plus grand musée du monde.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        }
+    ]
+}

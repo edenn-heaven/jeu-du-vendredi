@@ -1,0 +1,95 @@
+{
+    "title": "Musique – culture et artistes",
+    "tags": ["musique", "artistes", "culture"],
+    "questions": [{
+            "question": "Quel compositeur a écrit la 9e symphonie ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Beethoven", "is_correct": true },
+                { "text": "Mozart", "is_correct": false },
+                { "text": "Bach", "is_correct": false },
+                { "text": "Chopin", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Michael Jackson est surnommé le 'King of Pop'.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel groupe a chanté 'Bohemian Rhapsody' ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Queen", "is_correct": true },
+                { "text": "The Beatles", "is_correct": false },
+                { "text": "AC/DC", "is_correct": false },
+                { "text": "Pink Floyd", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Mozart a composé des symphonies dès l’enfance.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel instrument joue Yo-Yo Ma ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Violoncelle", "is_correct": true },
+                { "text": "Violon", "is_correct": false },
+                { "text": "Piano", "is_correct": false },
+                { "text": "Flûte", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Le rap est né dans les années 1980.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel chanteur a sorti l’album 'Thriller' ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Michael Jackson", "is_correct": true },
+                { "text": "Prince", "is_correct": false },
+                { "text": "Elton John", "is_correct": false },
+                { "text": "David Bowie", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Bach est un compositeur baroque.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel pays est associé au flamenco ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Espagne", "is_correct": true },
+                { "text": "Italie", "is_correct": false },
+                { "text": "Brésil", "is_correct": false },
+                { "text": "Portugal", "is_correct": false }
+            ]
+        },
+        {
+            "question": "L’opéra combine chant et théâtre.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        }
+    ]
+}
