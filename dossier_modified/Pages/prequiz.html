@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le jeu du Vendredi</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <div class="page">
+        <header class="site-header">
+            <div class="logo-container">
+                <img src="/Medias/logo.avif" alt="Stratow logo" />
+            </div>
+            <nav>
+                <a href="../Pages/index.html">Accueil</a>
+                <a href="../Pages/create.html">Créer</a>
+                <a href="../Pages/prequiz.html">Jouer</a>
+                <a href="../Pages/community/community.html">Communauté</a>
+                <a href="../Pages/community/login.html">Compte</a>
+            </nav>
+        </header>
+
+        <h1>Le jeu <span class="accent">du vendredi</span></h1>
+        <p>
+            Le jeu du vendredi ! Créez un quiz ou choisissez-en un dans la communauté, puis jouez.
+        </p>
+
+        <p class="muted" id="prequiz-status"></p>
+        <button class="buzzer" id="start-btn">Commencer le quiz</button>
+
+        <div class="panel" style="margin-top:20px; margin-bottom:20px;">
+            <label style="font-size:13px; font-weight:700; letter-spacing:0.03em; text-transform:uppercase; color:#777; display:block; margin-bottom:10px;">
+          Options de jeu
+        </label>
+            <div class="field">
+                <label for="time-limit-select">Limite de temps par question</label>
+                <div class="segmented-control" id="time-limit-control">
+                    <button type="button" class="segment is-active" data-seconds="0">Aucune</button>
+                    <button type="button" class="segment" data-seconds="15">15 s</button>
+                    <button type="button" class="segment" data-seconds="30">30 s</button>
+                    <button type="button" class="segment" data-seconds="60">1 min</button>
+                    <button type="button" class="segment" data-seconds="120">2 min</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../Javascript/storage.js"></script>
+    <script src="../Javascript/prequiz.js"></script>
+</body>
+
+</html>

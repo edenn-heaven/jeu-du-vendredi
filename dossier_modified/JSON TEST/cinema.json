@@ -1,0 +1,95 @@
+{
+    "title": "Cinéma et séries – culture ciné",
+    "tags": ["cinéma", "séries", "pop culture"],
+    "questions": [{
+            "question": "Qui a réalisé 'Inception' ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Christopher Nolan", "is_correct": true },
+                { "text": "Steven Spielberg", "is_correct": false },
+                { "text": "James Cameron", "is_correct": false },
+                { "text": "Quentin Tarantino", "is_correct": false }
+            ]
+        },
+        {
+            "question": "La série 'Breaking Bad' met en scène un professeur de chimie devenu trafiquant de drogue.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel film a remporté l’Oscar du meilleur film en 2020 ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Parasite", "is_correct": true },
+                { "text": "1917", "is_correct": false },
+                { "text": "Joker", "is_correct": false },
+                { "text": "Once Upon a Time in Hollywood", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Harry Potter est une production Netflix.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Faux", "is_correct": true },
+                { "text": "Vrai", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel acteur joue Iron Man dans le MCU ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Robert Downey Jr.", "is_correct": true },
+                { "text": "Chris Evans", "is_correct": false },
+                { "text": "Mark Ruffalo", "is_correct": false },
+                { "text": "Chris Hemsworth", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Le film 'Titanic' est sorti en 1997.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel réalisateur est associé à 'Pulp Fiction' ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Quentin Tarantino", "is_correct": true },
+                { "text": "Martin Scorsese", "is_correct": false },
+                { "text": "Ridley Scott", "is_correct": false },
+                { "text": "Tim Burton", "is_correct": false }
+            ]
+        },
+        {
+            "question": "La série 'Game of Thrones' est adaptée de romans.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Vrai", "is_correct": true },
+                { "text": "Faux", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Quel film contient le personnage de Neo ?",
+            "type": "multiple",
+            "answers": [
+                { "text": "Matrix", "is_correct": true },
+                { "text": "Inception", "is_correct": false },
+                { "text": "Blade Runner", "is_correct": false },
+                { "text": "Avatar", "is_correct": false }
+            ]
+        },
+        {
+            "question": "Disney a créé le premier long métrage d’animation sonore.",
+            "type": "truefalse",
+            "answers": [
+                { "text": "Faux", "is_correct": true },
+                { "text": "Vrai", "is_correct": false }
+            ]
+        }
+    ]
+}

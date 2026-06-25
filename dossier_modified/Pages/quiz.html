@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le jeu du Vendredi</title>
+<link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo-container">
+        <img src="/Medias/logo.avif" alt="Stratow logo"/>
+      </div>
+      <nav>
+        <a href="../Pages/index.html">Accueil</a>
+        <a href="../Pages/create.html">Créer</a>
+        <a href="../Pages/prequiz.html">Jouer</a>
+        <a href="../Pages/community/community.html">Communauté</a>
+        <a href="../Pages/community/login.html">Compte</a>
+      </nav>
+    </header>
+  
+    <section class="quiz-progress">
+      <span class="scoreboard" id="question-counter">QUESTION 1 / 1</span>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width: 0%;"></div>
+      </div>
+    </section>
+
+    <section class="panel question-card">
+      <h2 id="question-text-display"></h2>
+      <div class="options-list" id="options-list"></div>
+    </section>
+
+    <section class="quiz-nav">
+      <button class="buzzer buzzer--ghost" id="prev-btn">◀ Précédent</button>
+      <button class="buzzer" id="next-btn">Suivant ▶</button>
+    </section>
+
+  </div>
+
+  <script src="../Javascript/storage.js"></script>
+  <script src="../Javascript/quiz.js"></script>
+</body>
+</html>
